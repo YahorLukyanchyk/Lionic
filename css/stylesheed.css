@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "Muller";
+  src: url(/fonts/MullerBold.woff) format(woff),
+    url(/fonts/MullerBold.woff2) format(woff2);
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller-Light";
+  src: url(/fonts/MullerLight.woff) format(woff),
+    url(/fonts/MullerLight.woff2) format(woff2);
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url(/fonts/MullerMedium.woff) format(woff),
+    url(/fonts/MullerMedium.woff2) format(woff2);
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url(/fonts/MullerRegular.woff) format(woff),
+    url(/fonts/MullerRegular.woff2) format(woff2);
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header {
+  line-height: 110px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+.header__logo {
+  float: left;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+.nav {
+  display: inline-block;
+  font-family: "Muller", sans-serif;
+}
+.nav__list {
+}
+.nav__item {
+  display: inline-block;
+  color: black;
+  margin: 0 30px;
+  border-bottom: 4px solid white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.header .nav__item:hover {
+  color: #3172b9;
+  border-bottom: 4px solid #3172b9;
+  transition: 0.1s ease-in-out;
+}
+
+.nav__link {
+}
+.btn-header {
+  float: right;
+}
+
+.btn {
+  padding: 20px 35px;
+  color: white;
+  background: #3172b9;
+  border: 1px solid #3172b9;
+  border-radius: 5px;
+  font-family: "Muller", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  color: #3172b9;
+  background-color: white;
+  transition: 0.1s ease-in-out;
+}
+
+.SSL-block{
+  margin-top: 35px;
+  width: 233px;
+}
+
+.SSL-text{
+  text-align: center;
+  color: #787878;
+}
+
+.section__trial {
+  background-image: url(/img/section1.png);
+  height: 550px;
+}
+
+.content-box {
+  width: 510px;
+}
+
+.section__trial-heading {
+  margin-top: 125px;
+  font-family: "Muller-Light", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+.trial__description {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 55px;
+  color: #787878;
+}
+
+.section__what-we-do {
+  height: 880px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.what-we-do__heading {
+  margin-top: 225px;
+  margin-bottom: 40px;
+  font-family: "Muller-Light", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+}
+.section__description {
+  margin-bottom: 55px;
+  text-align: center;
+  color: #787878;
+  font-size: 18px;
+}
+.section__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: space-between
+
+}
+.cart-item {
+  display: inline-block;
+  width: 270px;
+  height: 320px;
+  border: 1px solid #787878;
+  border-radius: 5px;
+}
+
+.cart-svg{
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.cart-heading {
+  display: block;
+  margin-bottom: 25px;
+  font-family: "Muller", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.cart-description {
+  font-family: "Muller", sans-serif;
+  font-size: 14px;
+  color: #787878;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.cart-item:hover{
+  stroke: white;
+  fill: white;
+  background-color: #3172b9;
+  color: white; 
+  border-color: #3172b9;
+  transition: 0.1s;
+}
+
+.section__clients {
+  height: 700px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.clients__heading {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: "Muller-Light", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  text-align: left;
+}
+.client__cart {
+  display: inline-block;
+  width: 370px;
+  height: 360px;
+  border: 1px solid #787878;
+  border-radius: 5px;
+}
+
+.client__container {
+  width: 300px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.client__text {
+  height: 215px;
+  margin: 0;
+  padding-top: 25px;
+  color: #787878;
+  font-family: "Muller";
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  border-bottom: 1px solid #787878;
+}
+
+.client__button-area {
+  line-height: 120px;
+}
+
+.client__photo {
+  display: inline-block;
+  float: left;
+  margin-top: 25px;
+  width: 65px;
+  height: 65px;
+  background-color: #414141;
+  border-radius: 100%;
+  border: 2px solid #3172b9;
+}
+
+.client__info-block {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 25px;
+}
+
+.client__info-text {
+  margin-left: 20px;
+}
+
+.client__name {
+  font-family: "Muller", sans-serif;
+  font-size: 16px;
+}
+
+.client__job {
+  color: #787878;
+  font-family: "Muller", sans-serif;
+  font-size: 14px;
+}
+
+.section__contacts {
+  height: 540px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.contacts__heading {
+  margin-top: 65px;
+  margin-bottom: 115px;
+  font-family: "Muller-Light", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  text-align: left;
+}
+
+.info__block {
+  width: 290px;
+  font-family: "Muller-Light", sans-serif;
+}
+
+.info__svg{
+  display: block;
+  margin-bottom: 25px;
+}
+.info__heading {
+  margin-bottom: 45px;
+}
+.info__description {
+  color: #787878;
+  font-family: "Muller";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section__waiting{
+  height: 440px;
+}
+
+.waiting__heading {
+  margin-top: 120px;
+  margin-bottom: 30px;
+  font-family: "Muller-Light", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+}
